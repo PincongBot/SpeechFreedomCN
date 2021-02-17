@@ -48,4 +48,6 @@ entries.forEach((t) => {
 
 fs.writeFileSync("tweets_archive.json", JSON.stringify(tweets, null, 4));
 
+// grep -o -P "https://pbs.twimg.com/media/.*(?=\")" tweets_archive.json > img_urls.txt
+// cd media && wget -nv -nc -i ../img_urls.txt
 
