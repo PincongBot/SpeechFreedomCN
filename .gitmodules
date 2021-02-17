@@ -1,0 +1,3 @@
+[submodule "verdicts"]
+	path = verdicts
+	url = https://github.com/PincongBot/SpeechFreedomCNVerdicts.git
